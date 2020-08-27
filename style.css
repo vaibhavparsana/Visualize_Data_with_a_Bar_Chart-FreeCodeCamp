@@ -1,0 +1,36 @@
+.bar:hover {
+    fill: black;
+}
+
+#tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    text-align: center;
+
+    width: 150px;
+    height: 50px;
+    padding: 2px;
+    font: 12px;
+
+    box-shadow: 1px 1px 10px;
+    border-radius: 2px;
+}
+
+#container {
+    transform: translate(33%, 33%);
+    position: absolute;
+    text-align: center;
+    height: 460px;
+}
+
+#title {
+    font-size: 24px;
+}
+
+footer {
+   position: absolute;
+   bottom: 0px;
+}
